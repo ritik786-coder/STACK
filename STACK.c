@@ -18,13 +18,13 @@ void main(){
 	printf("\nenter your choice");
 	scanf("%d",&choice);
 	switch(choice){
-		case 1: push();
+		case 1: push(); // insert elements to the stack
 		break;
-		case 2: pop();
+		case 2: pop();  // delete the elements from top most of stack
 		break;
-		case 3: peek();
+		case 3: peek(); //returns the value of top 
 		break;
-		case 4: poll();
+		case 4: poll();  //traverse all the element and print 
 		break;
 		case 5: exit(0);
 		break;
